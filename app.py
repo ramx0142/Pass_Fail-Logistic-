@@ -5,7 +5,7 @@ import numpy as np
 # 1. Load the trained model
 # Make sure 'student_model.pkl' is in the same folder as this app.py file
 try:
-    model = joblib.load('student_exam_data.pkl')
+    model = joblib.load('Pass_Fail(Logistic).pkl')
 except FileNotFoundError:
     st.error("Model file not found. Please export 'student_model.pkl' from your notebook and place it here.")
     st.stop()
